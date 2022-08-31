@@ -1,0 +1,20 @@
+#DEV Environment
+spring:
+  security:
+    user:
+      name: admin
+      password: admin
+#  redis:
+#    url: {REDIS_URL:redis://localhost:7379}
+#    timeout: 3000
+  data:
+    rest:
+      basePath: /api
+    mongodb:
+      uri: ${MONGO_URL:mongodb://localhost:37017/demo}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, bean, env, configprops, metrics, mappings
