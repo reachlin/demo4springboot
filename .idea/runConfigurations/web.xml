@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="web" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.reachlin.demo4springboot.Demo4springbootApplication" />
+    <module name="demo4springboot" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
